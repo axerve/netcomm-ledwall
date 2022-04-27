@@ -34,10 +34,10 @@ export const Slide = ({children, color, className = ""}) => {
 }
 
 const timing = {
-  0: 1000,
-  1: 3000,
-  2: 1000,
-  3: 10000
+  0: 2000,
+  1: 2000,
+  2: 2000,
+  3: 2000
 }
 
 

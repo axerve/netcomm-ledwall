@@ -4,6 +4,69 @@
 
 
 @layer base {
+
+  html {
+    width: 1056px !important;
+    height: 704px !important;
+  }
+  body {
+    width: 1056px !important;
+    height: 704px !important;
+  }
+
+  .u-full-screen {
+    width: 1056px !important;
+    height: 704px !important;
+  }
+
+
+  .slide {
+    //display: none;
+    transform: translateX(100%);
+    animation-duration: 0.3s;
+  } 
+  .slide.current {
+    animation-name: enter;
+    transform: translateX(0);
+  }
+  .slide.prev {
+    animation-name: out;
+    transform: translateX(-100%);
+  }
+
+  @keyframes enter {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes out {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  /*
+  .slide {
+    display: none;
+    transform: translateX(100%);
+    transition: transform 3s;
+  } 
+  .slide.current {
+    transform: translateX(0%)
+  } 
+  .slide.prev {
+    transform: translateX(-100%)
+  }
+
+  */
+
+
   @font-face {
     font-family: "AvertaPE";
     src: url("./fonts/Averta/37B0E9_2_0.eot");

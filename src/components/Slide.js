@@ -42,7 +42,7 @@ const Slider = ({children}) => {
 
     {/* VIDEO HERO */}
     <Slide  color="black" current={current} index={2} >
-      <Video src={<Video src={videoHero} current={current === 2} id="video-1"/>} current={current === 2} id="video-2"/>
+      <Video src={videoHero} current={current === 2} id="video-2"/>
     </Slide>
 
 

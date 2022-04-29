@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/netcomm-ledwall/static/css/main.d67dfea3.css",
-    "main.js": "/netcomm-ledwall/static/js/main.c8d7c243.js",
+    "main.js": "/netcomm-ledwall/static/js/main.0ec688fa.js",
     "static/js/787.e972da46.chunk.js": "/netcomm-ledwall/static/js/787.e972da46.chunk.js",
     "static/media/axerve-payment-orchestra-2.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-2.dbab9e50e0934b069c39.mp4",
     "static/media/axerve-payment-orchestra-1.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-1.7dee1d6affc0df877be7.mp4",
@@ -13,6 +13,7 @@
     "static/media/37B0E9_A_0.ttf": "/netcomm-ledwall/static/media/37B0E9_A_0.8a06e4fc0751321d6c55.ttf",
     "static/media/37B0E9_D_0.ttf": "/netcomm-ledwall/static/media/37B0E9_D_0.de8db2ad15dc4dd800a2.ttf",
     "static/media/agenda-1.png": "/netcomm-ledwall/static/media/agenda-1.6096ecec87f2e06b0cdc.png",
+    "static/media/agenda-2.png": "/netcomm-ledwall/static/media/agenda-2.4c1cd6759603e13cdce7.png",
     "static/media/donation.png": "/netcomm-ledwall/static/media/donation.9874abff09913eaaa028.png",
     "static/media/partner.png": "/netcomm-ledwall/static/media/partner.fdc87accae2ed1fd8689.png",
     "static/media/37B0E9_2_0.woff": "/netcomm-ledwall/static/media/37B0E9_2_0.3968067995521e9f27ec.woff",
@@ -36,11 +37,11 @@
     "static/media/logo.svg": "/netcomm-ledwall/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/netcomm-ledwall/index.html",
     "main.d67dfea3.css.map": "/netcomm-ledwall/static/css/main.d67dfea3.css.map",
-    "main.c8d7c243.js.map": "/netcomm-ledwall/static/js/main.c8d7c243.js.map",
+    "main.0ec688fa.js.map": "/netcomm-ledwall/static/js/main.0ec688fa.js.map",
     "787.e972da46.chunk.js.map": "/netcomm-ledwall/static/js/787.e972da46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d67dfea3.css",
-    "static/js/main.c8d7c243.js"
+    "static/js/main.0ec688fa.js"
   ]
 }

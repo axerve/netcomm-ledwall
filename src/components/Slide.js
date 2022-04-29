@@ -25,7 +25,7 @@ const Slider = ({children}) => {
           return old + 1
         }
       })
-    }, timigVeloce[current])
+    }, timing[current])
   }, [current])
   
 
@@ -76,11 +76,11 @@ export const Slide = ({children, color, className = "", index = 0, current = 0})
 const slideNumber = 9;
 
 const timing = {
-  0: 10000, //video po
+  0: 71000, //video po
   1: 12000, // schermata punteggio
   2: 10000, //video hero
   3: 12000, //loghi partner
-  4: 10000, //video urumaki
+  4: 116000, //video urumaki
   5: 12000, // schermata punteggio
   6: 10000, //video tiktok
   7: 12000, //agenda giorno 1

@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react"
 import background from "../images/donation.png"
 
-const api = false;
+const api = true;
 
 const Donation = ({load}) => {
   const [value, setValue] = useState(undefined)
   const [frase, setFrase] = useState("")
   useEffect(() => {
       if(load === true && api) {
-        console.log("load")
           window.gapi.client.load("sheets", "v4", () => {
             window.gapi.client.sheets.spreadsheets.values
               .batchGet({

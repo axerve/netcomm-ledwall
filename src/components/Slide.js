@@ -8,9 +8,11 @@ import video1 from "../images/axerve-payment-orchestra-1.mp4"
 import videoUramaki from "../images/axerve-payment-orchestra-2.mp4"
 import videoHero from "../images/video-hero.mp4"
 
+import videoTikTok from "../images/tiktok-netcomm.mp4"
+
 import imagePartner from "../images/partner.png"
 import imageAgenda1 from "../images/agenda-1.png"
-import imageAgenda2 from "../images/agenda-1.png"
+import imageAgenda2 from "../images/agenda-2.png"
 
 const Slider = ({children}) => {
   const [current,setCurrent] = useState(0)
@@ -41,7 +43,7 @@ const Slider = ({children}) => {
     {/* VIDEO HERO */}
     <Slide  color="black" current={current} index={2} >
       <Video src={<Video src={videoHero} current={current === 2} id="video-1"/>} current={current === 2} id="video-2"/>
-      </Slide>
+    </Slide>
 
 
     {/* PARTNER IMAGE */}
@@ -57,7 +59,7 @@ const Slider = ({children}) => {
 
 
     {/* VIDEO TIKTOK */}
-    <Slide color="black"  current={current} index={6} ><Video src={videoUramaki} current={current === 6} id="video-2"/></Slide>
+    <Slide color="black"  current={current} index={6} ><Video src={videoTikTok} current={current === 6} id="video-6"/></Slide>
 
 
     {/* AGENDA 1 E AGENDA 2 */}
@@ -78,11 +80,11 @@ const slideNumber = 9;
 const timing = {
   0: 71000, //video po
   1: 12000, // schermata punteggio
-  2: 10000, //video hero
+  2: 59000, //video hero
   3: 12000, //loghi partner
   4: 116000, //video urumaki
   5: 12000, // schermata punteggio
-  6: 10000, //video tiktok
+  6: 45000, //video tiktok
   7: 12000, //agenda giorno 1
   8: 12000, //agenda giorno 2
 }

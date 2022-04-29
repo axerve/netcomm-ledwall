@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 
-const Video = ({src, current = false, id}) => {
+const Video = ({src, current = false, id, srcWebp}) => {
 
   useEffect(() => {
     const video = document.getElementById(id);
@@ -13,7 +13,8 @@ const Video = ({src, current = false, id}) => {
   }, [current])
 
  return <video muted id={id} style={{width: "100%", height: "100%"}}>
-   <source src={src} type="video/mp4" />
+   {srcWebp && <source src={srcWebp} type="video/mp4" />}
+   <source src={src} type="video/webm" />
  </video>
 }
 

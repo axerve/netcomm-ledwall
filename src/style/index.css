@@ -8,6 +8,12 @@
   html {
     width: 1056px !important;
     height: 704px !important;
+    font-family: "AvertaPE", Arial, sans-serif;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    text-rendering: geometricprecision;
+    -webkit-font-smoothing: antialiased;
+    line-height: 150%;
   }
   body {
     width: 1056px !important;

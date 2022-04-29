@@ -112,6 +112,7 @@ module.exports = {
         'h2': '32px',
         'h3': '24px',
         'h4': '20px',
+        'large': '72px'
       },
       borderRadius: {
         DEFAULT: '6px'

@@ -26,10 +26,10 @@ const Donation = ({load}) => {
       }, [load]);
 
   return <div style={{backgroundImage: `url('${background}')`, backgroundSize: "100% 100%"}} className="w-full h-full relative" >
-    <div className="absolute w-[400px] h-[200px] top-[calc(50%-108px)] left-[calc(50%-200px)] flex justify-center items-center">
+    <div className="absolute w-[400px] h-[200px] top-[calc(50%-113px)] left-[calc(50%-200px)] flex justify-center items-center">
       {value && <span className="text-large font-bold text-deep-sky-blue-10 leading-[136%]">{value},00€</span>}
       </div>
-      {frase && <div className="absolute w-[480px] h-[100px] top-[calc(50%+124px)] left-[calc(50%-240px)] d-flex justify-center items-center text-[15px] text-center">{frase}</div>}
+      {frase && <div className="absolute w-[480px] h-[100px] top-[calc(50%+124px)] left-[calc(50%-240px)] d-flex justify-center items-center text-[15px] text-center text-[#464D53]" >{frase}</div>}
     </div>
 }
 

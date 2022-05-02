@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/netcomm-ledwall/static/css/main.d67dfea3.css",
-    "main.js": "/netcomm-ledwall/static/js/main.7ce09230.js",
+    "main.css": "/netcomm-ledwall/static/css/main.c9186f11.css",
+    "main.js": "/netcomm-ledwall/static/js/main.f2be1658.js",
     "static/js/787.e972da46.chunk.js": "/netcomm-ledwall/static/js/787.e972da46.chunk.js",
-    "static/media/axerve-payment-orchestra-2.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-2.dbab9e50e0934b069c39.mp4",
     "static/media/axerve-payment-orchestra-1.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-1.5988ad30088dbb59cd2d.mp4",
     "static/media/video-hero.mp4": "/netcomm-ledwall/static/media/video-hero.4a2e5cb8d67434c25ac7.mp4",
     "static/media/tiktok-netcomm.mp4": "/netcomm-ledwall/static/media/tiktok-netcomm.f2c35c92f4ab7ebbaf5e.mp4",
+    "static/media/axerve-payment-orchestra-2.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-2.b0803fdf990010adda3f.mp4",
     "static/media/37B0E9_2_0.ttf": "/netcomm-ledwall/static/media/37B0E9_2_0.04c06b9fd0b7baf49f8f.ttf",
     "static/media/37B0E9_9_0.ttf": "/netcomm-ledwall/static/media/37B0E9_9_0.9c3f9972c56fce45d8ec.ttf",
     "static/media/37B0E9_C_0.ttf": "/netcomm-ledwall/static/media/37B0E9_C_0.5a20439867a1e1f6993f.ttf",
@@ -37,12 +37,12 @@
     "static/media/37B0E9_D_0.eot": "/netcomm-ledwall/static/media/37B0E9_D_0.58a5f956be5e10fd4c0d.eot",
     "static/media/logo.svg": "/netcomm-ledwall/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/netcomm-ledwall/index.html",
-    "main.d67dfea3.css.map": "/netcomm-ledwall/static/css/main.d67dfea3.css.map",
-    "main.7ce09230.js.map": "/netcomm-ledwall/static/js/main.7ce09230.js.map",
+    "main.c9186f11.css.map": "/netcomm-ledwall/static/css/main.c9186f11.css.map",
+    "main.f2be1658.js.map": "/netcomm-ledwall/static/js/main.f2be1658.js.map",
     "787.e972da46.chunk.js.map": "/netcomm-ledwall/static/js/787.e972da46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67dfea3.css",
-    "static/js/main.7ce09230.js"
+    "static/css/main.c9186f11.css",
+    "static/js/main.f2be1658.js"
   ]
 }

@@ -16,6 +16,7 @@
     line-height: 150%;
   }
   body {
+    overflow: hidden;
     width: 1056px !important;
     height: 704px !important;
   }

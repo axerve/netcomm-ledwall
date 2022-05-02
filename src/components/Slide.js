@@ -17,7 +17,7 @@ import imageAgenda2 from "../images/agenda-2.png"
 const Slider = ({children}) => {
   const [current,setCurrent] = useState(0)
 
-  
+
   useEffect(() => {
     setTimeout(() => {
       setCurrent(old => {
@@ -28,7 +28,7 @@ const Slider = ({children}) => {
         }
       })
     }, timing[current])
-  }, [current])
+  }, [current]) 
   
 
   return <div className="relative">
@@ -82,7 +82,7 @@ const timing = {
   1: 12000, // schermata punteggio
   2: 59000, //video hero
   3: 12000, //loghi partner
-  4: 116000, //video urumaki
+  4: 114000, //video urumaki
   5: 12000, // schermata punteggio
   6: 45000, //video tiktok
   7: 12000, //agenda giorno 1

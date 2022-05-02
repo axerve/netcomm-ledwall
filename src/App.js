@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Slider, { Slide } from './components/Slide';
-import logo from './logo.svg';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import Slider from './components/Slide';
 
 function App() {
 
@@ -30,10 +23,7 @@ function App() {
   }, [])
 
   return scriptLoaded && <div className="App">
-    <Routes>
-      <Route path="/netcomm-ledwall" element={<Slider/>} />
-      <Route path='/netcomm-ledwall/donazioni' element={<p>ciao</p>} /> 
-    </Routes>
+      <Slider/>
     </div>
 }
 

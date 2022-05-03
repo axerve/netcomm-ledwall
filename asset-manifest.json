@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/netcomm-ledwall/static/css/main.f09e27f8.css",
-    "main.js": "/netcomm-ledwall/static/js/main.58b31c70.js",
+    "main.js": "/netcomm-ledwall/static/js/main.f2c96cad.js",
     "static/js/787.e972da46.chunk.js": "/netcomm-ledwall/static/js/787.e972da46.chunk.js",
     "static/media/axerve-payment-orchestra-1.mp4": "/netcomm-ledwall/static/media/axerve-payment-orchestra-1.5988ad30088dbb59cd2d.mp4",
     "static/media/video-hero.mp4": "/netcomm-ledwall/static/media/video-hero.4a2e5cb8d67434c25ac7.mp4",
@@ -37,11 +37,11 @@
     "static/media/37B0E9_D_0.eot": "/netcomm-ledwall/static/media/37B0E9_D_0.58a5f956be5e10fd4c0d.eot",
     "index.html": "/netcomm-ledwall/index.html",
     "main.f09e27f8.css.map": "/netcomm-ledwall/static/css/main.f09e27f8.css.map",
-    "main.58b31c70.js.map": "/netcomm-ledwall/static/js/main.58b31c70.js.map",
+    "main.f2c96cad.js.map": "/netcomm-ledwall/static/js/main.f2c96cad.js.map",
     "787.e972da46.chunk.js.map": "/netcomm-ledwall/static/js/787.e972da46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f09e27f8.css",
-    "static/js/main.58b31c70.js"
+    "static/js/main.f2c96cad.js"
   ]
 }

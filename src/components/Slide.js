@@ -15,9 +15,9 @@ import imageAgenda1 from "../images/agenda-1.png"
 import imageAgenda2 from "../images/agenda-2.png"
 
 const Slider = ({children}) => {
-  const [current,setCurrent] = useState(1)
+  const [current,setCurrent] = useState(0)
 
-/*
+
   useEffect(() => {
     setTimeout(() => {
       setCurrent(old => {
@@ -28,7 +28,7 @@ const Slider = ({children}) => {
         }
       })
     }, timing[current])
-  }, [current])  */
+  }, [current])  
   
 
   return <div className="relative">
